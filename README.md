@@ -1,5 +1,10 @@
 # hive-
-# hive-
+### map端内存设置
+
+set mapred.job.map.memory.mb=6144;
+
+set mapreduce.map.java.opts=-Xmx4915m;
+
 ###  小文件处理
 
 1 map 输入合并小文件参数
