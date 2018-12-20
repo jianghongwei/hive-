@@ -11,7 +11,9 @@ set mapreduce.map.java.opts=-Xmx4915m;
 
 每个Map最大输入大小(这个值决定了合并后文件的数量)
 
-set mapred.max.split.size=256000000;  
+set mapreduce.input.fileinputformat.split.maxsize=20000000 20M
+
+set mapreduce.input.fileinputformat.split.minsize=20000000 20M
 
 一个节点上split的至少的大小(这个值决定了多个DataNode上的文件是否需要合并)
 
@@ -37,7 +39,7 @@ set hive.merge.mapredfiles = true
 
 设置合并文件的大小
 
-set hive.merge.size.per.task = 256*1000*1000
+set hive.merge.size.per.task = 256000000
 
 当输出文件的平均大小小于该值时，启动一个独立的MapReduce任务进行文件merge。
 
