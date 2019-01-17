@@ -137,3 +137,7 @@ reduce最多执行数量 不推荐使用
 
 mapred.reduce.tasks
 
+<<<<<<< HEAD
+=======
+test3
+>>>>>>> 74c5ca4d5fb2aa0a79ae48abcb53b19040221e82
