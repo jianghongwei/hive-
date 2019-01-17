@@ -43,9 +43,7 @@ set hive.merge.size.per.task = 256000000
 
 当输出文件的平均大小小于该值时，启动一个独立的MapReduce任务进行文件merge。
 
-
 set hive.merge.smallfiles.avgsize=16000000
-
 
 ### mapjoin ###
 
