@@ -136,3 +136,5 @@ hive.exec.reducers.bytes.per.reducer
 reduce最多执行数量 不推荐使用
 
 mapred.reduce.tasks
+
+test1
