@@ -45,7 +45,7 @@ set hive.merge.size.per.task = 256000000
 
 set hive.merge.smallfiles.avgsize=16000000
 
-### mapjoin ###
+### mapjoin
 
 默认true开启自动mapjoin优化 
 
